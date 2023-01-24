@@ -105,6 +105,7 @@ const SnakeGame = () => {
         setStart(true);
         setEnd(false);
         setPause(false);
+        setLen(snake.length);
     }
     useInterval(() => gameloop(), speed)
 
